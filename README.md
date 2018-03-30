@@ -43,7 +43,7 @@
 
 `B` - jump backwards to the start of a word (words can contain punctuation)
 
-`% - move to matching character (default supported pairs: '()', '{}', '[]'` - use :h matchpairs in vim for more info)
+`%` - move to matching character (default supported pairs: '()', '{}', '[]' - use :h matchpairs in vim for more info)
 
 `0` - jump to the start of the line
 
@@ -89,10 +89,10 @@
 
 `Ctrl + u` - move back 1/2 a screen
 
-# Tip Prefix a cursor movement command with a number to repeat it. For example, 4j moves down 4 lines.
+Tip Prefix a cursor movement command with a number to repeat it. For example, 4j moves down 4 lines.
 -----------
 
-`## Insert mode` - inserting/appending text
+## Insert mode - inserting/appending text
 -----------
 
 `i` - insert before the cursor
@@ -198,7 +198,7 @@ Tip Register 0 contains always the value of the last yank command.
 
 `ma` - set current position for mark A
 
-``a` - jump to position of mark A
+`a` - jump to position of mark A
 
 `y`a` - yank text to position of mark A
 
