@@ -285,3 +285,57 @@ e.g. :vimgrep /foo/ **/*
 `:cp` - jump to the previous match
 
 `:copen` - open a window containing the list of matches
+
+## Working with multiple files
+-----------
+
+`:e file` - edit a file in a new buffer
+
+`:bnext or :bn` - go to the next buffer
+
+`:bprev or :bp` - go to the previous buffer
+
+`:bd` - delete a buffer (close a file)
+
+`:ls` - list all open buffers
+
+`:sp file` - open a file in a new buffer and split window
+
+`:vsp file` - open a file in a new buffer and vertically split window
+
+`Ctrl + ws` - split window
+
+`Ctrl + ww` - switch windows
+
+`Ctrl + wq` - quit a window
+
+`Ctrl + wv` - split window vertically
+
+`Ctrl + wh` - move cursor to the left window (vertical split)
+
+`Ctrl + wl` - move cursor to the right window (vertical split)
+
+`Ctrl + wj` - move cursor to the window below (horizontal split)
+
+`Ctrl + wk` - move cursor to the window above (horizontal split)
+
+##  Tabs
+-----------
+
+`:tabnew or :tabnew file` - open a file in a new tab
+
+`Ctrl + wT` - move the current split window into its own tab
+
+`gt or :tabnext or :tabn` - move to the next tab
+
+`gT or :tabprev or :tabp` - move to the previous tab
+
+`#gt` - move to tab number #
+
+`:tabmove #` - move current tab to the #th position (indexed from 0)
+
+`:tabclose or :tabc` - close the current tab and all its windows
+
+`:tabonly or :tabo` - close all tabs except for the current one
+
+`:tabdo command` - run the command on all tabs (e.g. :tabdo q - closes all opened tabs)
